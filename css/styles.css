@@ -277,10 +277,11 @@ text-transform: uppercase;
 margin-bottom: 10px;
 
 }
-
 .container-feature{
-display: flex;
-}
+    display: flex;
+    }
+
+
 
 .container-img{
 display: flex;
@@ -449,6 +450,7 @@ padding-left: 0;
 .btn-item:focus{
     color: #FFFFFF;
     background-color: var(--active-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-box{
@@ -457,7 +459,14 @@ padding-left: 0;
    padding-bottom: 20px;
    padding-top: 20px;
    border: 1px solid #EEEEEE;
+  
 }
+.portfolio-box:hover,
+.portfolio-box:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
 
 .portfolio-img {
     display: flex;
